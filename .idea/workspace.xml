@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5a20374-93a7-4092-bdb9-38e454ca5558" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.idea/ПП Курсач.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/backend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/errors.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/app/app.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/models/log.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/models/refresh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/domain/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/logout.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/refresh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/repository/repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/storage/database/postgres.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/storage/database/redis.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/storage/storage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/transport/grpc/server/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/transport/grpc/server/logout.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/transport/grpc/server/refresh.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/transport/grpc/server/register.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/internal/transport/grpc/server/server.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/lib/bcrypt/bcrypt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/lib/jwt/claim.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/lib/jwt/generate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/lib/jwt/valid.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pkg/lib/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../protos" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/cmd/main/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/config/local.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/config/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/domain/models/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/create.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/delete.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/find.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/get-all.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/repo.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/repository/update.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handlers/create-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handlers/delete-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handlers/find-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handlers/get-all-users.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/handlers/update-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/middleware/auth.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/transport/http/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/create-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/delete-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/find-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/get-all-users.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/uc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/internal/usecase/update-user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../users/pkg/lib/logger/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../docker-compose.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.25.1" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPENED",
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "DrusGalkin",
+      "fullname": "DrusGalkin"
+    }
+  }
+}]]></component>
+  <component name="GitLabMergeRequestsSettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "first": "https://gitlab.com/coursework-2025-git/git-2025.git",
+    "second": "ab443f6f-3671-4d18-8260-2c2a92eff022"
+  }
+}]]></component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="32ur5XqYMjYAgejWIkqboRJEg9P" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.GoLinterPluginOnboarding": "true",
+    "RunOnceActivity.GoLinterPluginStorageMigration": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "git-widget-placeholder": "master",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "C:/Users/DrusGalkin",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-3b128438d3f6-4b567d62c776-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-251.25410.140" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-GO-251.25410.140" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5a20374-93a7-4092-bdb9-38e454ca5558" name="Changes" comment="" />
+      <created>1758281116493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758281116493</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
