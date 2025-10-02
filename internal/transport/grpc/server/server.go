@@ -37,7 +37,7 @@ func (a *AuthServer) MustLoadGRPCServer() {
 	}
 
 	server := grpc.NewServer()
-	pb.RegisterAuthServiceServer(server, &AuthServer{})
+	pb.RegisterAuthServiceServer(server, a)
 
 	log.Println("gRPC сервер стартует")
 	if err := server.Serve(lis); err != nil {

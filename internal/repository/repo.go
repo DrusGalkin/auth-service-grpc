@@ -13,6 +13,7 @@ type Repository interface {
 	Register(ctx context.Context, user models.User) (int, error)
 	Logout(ctx context.Context, id int) error
 	ValidateToken(ctx context.Context, token string) (models.User, error)
+	IsAdmin(ctx context.Context, id int) (bool, error)
 }
 
 type AuthRepository struct {
